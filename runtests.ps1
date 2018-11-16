@@ -1,0 +1,1 @@
+.\node_modules\.bin\cypress run --spec 'cypress/integration/sample_spec.js' --browser chrome --no-exit

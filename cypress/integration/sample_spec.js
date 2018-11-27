@@ -1,11 +1,11 @@
 /* global describe, beforeEach, context, it, cy */
 
-describe('Visit site', function() {
-  it('Find open date', function() {
-    cy.visit('https://my.uscis.gov/en/appointment/us/91941/SND/dates')
-    cy.get('div.top-part > h4.darkgray-text').should('contain', 'no available appointments')
-  })
-})
+// describe('Visit site', function() {
+//   it('Find open date', function() {
+//     cy.visit('https://my.uscis.gov/en/appointment/us/91941/SND/dates')
+//     cy.get('div.top-part > h4.darkgray-text').should('contain', 'no available appointments')
+//   })
+// })
 
 
 describe('Visit site', function() {
